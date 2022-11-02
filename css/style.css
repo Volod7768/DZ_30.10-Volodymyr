@@ -8,20 +8,21 @@ body{
 
 }
 
-.line {
-    display: flex;
+.line_1 {
+
+
 }
 
-.line_2 {
-    display: flex;
-}
+
 
 .title {
+
     width: 200px;
-    height: 226px;
     background: #E0E0E0;
     margin-left: 100px;
     margin-top: 100px;
+    padding-bottom: 18px;
+    display: inline-block;
 
 
 }
@@ -38,35 +39,40 @@ body{
     height: 130px;
     margin-left: 35px;
     padding-top: 56px;
-    padding-left: 46px;
     color:#FFFFFF;
+    position: absolute;
+    text-align: center;
+
 
 }
 .header{
 
     width: 200px;
-    height: 22px;
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
     line-height: 22px;
     text-align: center;
     color: #000000;
-    margin-top: 10px;
+    padding-top: 140px;
+
+
 }
 
 .description{
 
-    position: absolute;
+
     width: 200px;
-    height: 36px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #000000;
-    margin-top: 10px;
+
+
+
+
 }
 
 .header:hover {
