@@ -1,83 +1,62 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+body {
+    font-family: 'Roboto',sans-serif;
     margin: 0;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.line_1 {
+    padding: 0;
 
 
 }
 
+.table{
+    max-width: 700px;
 
 
-.title {
+}
 
-    width: 200px;
+.table_section{
     background: #E0E0E0;
-    margin-left: 100px;
-    margin-top: 100px;
-    padding-bottom: 18px;
-    display: inline-block;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
 
 
 }
+
 
 
 .image{
+    position: absolute;
+    padding:56px 45px ;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    text-decoration: none;
-    display: block;
     background: #C4C4C4;
-    width: 130px;
-    height: 130px;
-    margin-left: 35px;
-    padding-top: 56px;
-    color:#FFFFFF;
-    position: absolute;
-    text-align: center;
-
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 35px 96px;
+    display: block;
 
 }
-.header{
 
-    width: 200px;
+.title{
+
+    margin: 0;
     font-weight: 700;
     font-size: 18px;
-    font-style: normal;
-    line-height: 22px;
-    text-align: center;
-    color: #000000;
     padding-top: 140px;
-
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: 10px;
 
 }
 
 .description{
-
-
-    width: 200px;
-    font-style: normal;
+    text-align: center;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    margin: 0;
+    line-height: 18px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    color: #000000;
-
-
-
 
 }
-
-.header:hover {
-    text-decoration: underline;
-    color: cornflowerblue;
-}
-
-
